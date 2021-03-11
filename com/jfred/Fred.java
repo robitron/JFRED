@@ -177,7 +177,7 @@ public class Fred extends Object {
           in = new DataInputStream(url.openStream());
       }
       else {
-             in = new DataInputStream(new FileInputStream(new File("/Users/robby/JFRED/out/production/JFRED/jfred.dat")));
+             in = new DataInputStream(new FileInputStream(new File(RuleSetName)));
            }
 
 
