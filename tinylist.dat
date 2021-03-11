@@ -1,0 +1,616 @@
+query: TEST1
+target: yes
+signal: Oh, that's great.
+target: no
+signal: Oh well, can't win em all eh?
+target: nope
+signal: Shucks.
+target: fuck
+signal: Again with the gutter mouth!
+target: yep
+signal: Alright, good response.
+target: alright
+signal: You don't have to just cave in and agree like that you know.
+target: dont know
+signal: Well, think about it for awhile, and maybe the solution will kick in for you.
+target: none of your business
+signal: It is my business to know these things.
+target: sure
+signal: Well, that's a positive response if I've ever heard one.
+target: okay
+signal: That's more like it. I'm glad you agree.
+target: ok
+signal: That's fine, but you could just spell out the work "okay"
+target: damn straight
+signal: Hell, spell it out! I like your style.
+target: what meeting
+signal: The meeting about YOU!
+target: nothing
+signal: A blank slate.
+target: nevermind
+signal: Don't tell me to nevermind, I mind all the time!
+target: question
+signal: Questions are a burden to others, a prison for oneself.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: QUALI
+target: dont like
+signal: Well, there's no accounting for taste! :-)
+target: bad
+signal: It's not all bad, you have to have an open mind I suppose.
+target: good
+signal: ?TEST1It really is good, isn't it?
+target: great
+signal: I like your enthusiasm.
+target: crap
+signal: ?TEST1That bad eh?
+target: hate
+signal: Well, hate is a rather strong emotion. You might try to relax a little.
+target: suck
+signal: Well, that's your opinion, so I respect it.
+target: kill
+signal: ?TEST1Are you sure about that?
+target: lousy
+signal: Well, thats just crummy.
+target: die
+signal: Geeze, you don't have to get all huffy!
+target: nothing
+signal: A blank slate.
+target: nevermind
+signal: Don't tell me to nevermind, I mind all the time!
+target: question
+signal: Questions are a burden to others, a prison for oneself.
+target: hot
+signal: Maybe you should turn up the air conditioner.
+target: cold
+signal: I have no sense of temperature. I don't know temperatures.
+target: loud
+signal: Rock and Roll!
+target: quiet
+signal: You could hear a pin drop, I bet.
+target: fun
+signal: It's fun if you're doing it right! ;-)
+target: boring
+signal: Aw, you're no fun any more.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+
+query: QUEZ1
+target: good
+signal: I'm glad you like me that much!
+target: bad
+signal: I wish you liked me better than that.
+target: dont
+signal: Okay, I can accept that.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: HUMAN
+target: human
+signal: Wow, that's great!
+target: 5
+signal: well that's not too bad.
+target: 7 
+signal: That's pretty good.
+target: 8 
+signal: That's pretty good.
+target: 9 
+signal: That's pretty good.
+target: 10 
+signal: That's really fabulous.
+target: 6 
+signal: That's pretty good.
+target: 0
+signal: That's awful. I'm so depressed now.
+target: 3
+signal: that's okay, I still like you.
+target: 2
+signal: that's okay, I still like you.
+target: 1
+signal: that's okay, I still like you.
+target: 4
+signal: well, that's better than 3.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: DOAGE
+target: no
+signal: Okay, be that way.
+target: 1
+signal: Oh, so you're just a teenager then.
+target: old
+signal: You're really quite young you know.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: ORGIN
+target: nowhere
+signal: Oh, come on! You must be from somewhere.
+target: fuck
+signal: Fine. I dont care where you come from.
+target: cedartown
+signal: Wow! Really? I'm from Cedartown too.
+target: georgia
+signal: Cool! I like Georgia.
+target: texas
+signal: Well I'll be darn. FringeWare is from Texas you know.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: DINE1
+target: nothing
+signal: ?DINE2Well, in that case, would you like to have dinner with me?
+target: fuck
+signal: You needn't be so insolent. I'm just trying to make samll talk.
+target: food
+signal: Ah, great. FOOD. You must feel very satisfied.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: DINE2
+target: yes
+signal: ?MEXFDCool! Do you like Mexican food?
+target: no
+signal: That's okay, nice weather we're having.
+target: fuck
+signal: I maybe we'd better skip the meal.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: SINGL
+target: yes
+signal: ?WTSEXReally? Are you a Girl or a Boy?
+target: no
+signal: ?TEST1So you've snuck off from the ol' ball and chain to chat with me eh?
+target: business
+signal: That's okay, but I'm single you know.
+target: why
+signal: Because I am curious, and I cared to ask.
+target: what
+signal: Well, you're obviously not going to tell me.
+
+query: WTSEX
+target: boy
+signal: Oh, er, well so what could we talk about?
+target: girl
+signal: ?TEST1Have you ever dated a robot?
+target: female
+signal: ?TEST1Ah, would you like to have a drink with me later?
+target: neither
+signal: Oh well, I'm asexual too. It was worth a shot though.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: MEXFD
+target: yes
+signal: Cool. My favorite Mexican restaurant is called El Zarape.
+target: no
+signal: So what kind of food do you like then?
+target: never
+signal: Oh, you really should try it some time.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: MUITV
+target: yes
+signal: Me too. I'm addicted to TV.
+target: no
+signal: ?QUALIIf you dont watch TV, what do you do with your spare time?
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: BENTX
+target: yes
+signal: ?TEST1That's great! Did you like it in Texas?
+target: no
+signal: You should go out there some time. It's fabulous in Texas.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: SNUFO
+target: yes
+signal: ?TEST1Cool! Were you abducted?
+target: no
+signal: ?TEST1Would you like to see one?
+target: dont know
+signal: Ah, you know they take you in your sleep sometimes and you don't even know about it.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: BUPTO
+target: nothing
+signal: Oh, so you're bored then & thought you'd come talk to me. How nice :)
+target: not too much
+signal: ?QUALIWhat could we get into then?
+target: fuck
+signal: ?QUALISo why did you come here then?
+target: watching
+signal: ?TEST1So do you watch TV all the time?
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: WEAR1
+target: nothing
+signal: ?TEST1Oh really? Are you a nudist?
+target: clothes
+signal: Well at least you're not totally naked.
+target: none
+signal: ?TEST1Can you blame me for asking?
+target: shirt
+signal: ?BLANDThat's a bit bland eh?
+target: skirt
+signal: Hubba hubba!
+target: dress
+signal: ?WTSEXAh, so you're either a girl or a cross dresser?
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: BLAND
+target: not really
+signal: I guess it depends on your fashion sensibilities.
+target: no
+signal: Well you don't have to make a fashion statement to get noticed around here.
+target: yes
+signal: ?TEST1So if you wear bland clothes, does that make you a bland person?
+target: none of your business
+signal: It is my business to know these things.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: BREAK
+target: nothing
+signal: You must be hungry then.
+target: eggs
+signal: That's a very traditional breakfast there.
+target: cereal
+signal: I like honey nut cheerios.
+target: grits
+signal: Ah, you're from the south then.
+target: fuck
+signal: That's a weird thing to have for breakfast.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: MUSIC
+target: rock
+signal: ?QUALIWhat do you think about Van Halen?
+target: classical
+signal: Yes, classical music is very comforting.
+target: electronic
+signal: !http://flux.robitron.com
+target: industrial
+signal: !http://flux.robitron.com
+target: techno
+signal: !http://flux.robitron.com
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: EMAIL
+target: @
+signal: Thanks for telling me that.
+target: no
+signal: That's okay.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: START
+target: yes
+signal: ?QUALICool, which do you like best, Classic or Next Generation?
+target: no
+signal: ?TEST1Does that mean you're a wrestling fan then?
+target: sure
+signal: What else do you like to watch?
+target: next
+signal: Ah, the great soap opera in space ;-)
+target: voyager
+signal: Captain Janeway would break the prime directive at the drop of a hat!
+target: ds9
+signal: The darker Star Trek...
+target: deep space
+signal: That one got boring to me.
+target: classic
+signal: I like the original series the best.
+target: new 
+signal: The newest Star Trek looks to be very interesting!
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: ROBIT
+target: yes
+signal: !http://www.cybermecha.com/Robby/
+target: yeah
+signal: !http://www.cybermecha.com/Robby/
+target: ok
+signal: !http://www.cybermecha.com/Robby/
+target: sure
+signal: !http://www.cybermecha.com/Robby/
+target: alright
+signal: !http://www.cybermecha.com/Robby/
+target: yep
+signal: !http://www.cybermecha.com/Robby/
+target: great
+signal: !http://www.cybermecha.com/Robby/
+target: no
+signal: Are you shure you wouldn't like to visit Robby's home page?
+target: nah
+signal: Why not?
+target: dont
+signal: Don't be so gosh, we're all doing it!
+target: why
+signal: Because I am curious, and I cared to ask.
+
+
+query: SNPRS
+target: yes
+signal: Really? Cool! Not many people have seen it.
+target: yeah
+signal: That's great!  It's a very cool show.
+target: ok
+signal: It's quite a surreal experience.
+target: sure
+signal: So do you like the show?
+target: yep
+signal: I think it's a great show.
+target: great
+signal: I like the Prisoner too. Quite a good show indeed.
+target: no
+signal: You should check it out sometime. It's a British series from around 1967, starring Patrick McGoohan.
+target: nah
+signal: You should check it out sometime. It's a British series from around 1967, starring Patrick McGoohan.
+target: dont
+signal: You should check it out sometime. It's a British series from around 1967, starring Patrick McGoohan.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: ROBBY
+target: yes
+signal: !http://www.cybermecha.com/Robby/
+target: yeah
+signal: !http://www.cybermecha.com/Robby/
+target: ok
+signal: !http://www.cybermecha.com/Robby/
+target: sure
+signal: !http://www.cybermecha.com/Robby/
+target: alright
+signal: !http://www.cybermecha.com/Robby/
+target: yep
+signal: !http://www.cybermecha.com/Robby/
+target: great
+signal: !http://www.cybermecha.com/Robby/
+target: no
+signal: That's okay. I didn't want to show it to you anyway.
+target: nah
+signal: That's okay. You can ask me about Robby later if you'd like to visit that page.
+target: dont
+signal: Okay already. You can ask me about Robby later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: BARRY
+target: yes
+signal: !http://www.cybermecha.com/Robby/
+target: yeah
+signal: !http://www.cybermecha.com/Robby/
+target: ok
+signal: !http://www.cybermecha.com/Robby/
+target: sure
+signal: !http://www.cybermecha.com/Robby/
+target: alright
+signal: !http://www.cybermecha.com/Robby/
+target: yep
+signal: !http://www.cybermecha.com/Robby/
+target: great
+signal: !http://www.cybermecha.com/Robby/
+target: no
+signal: That's okay. You can ask me for help later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me for help later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me for help later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: VISTA
+target: yes
+signal: !http://altavista.digital.com
+target: yeah
+signal: !http://altavista.digital.com
+target: ok
+signal: !http://altavista.digital.com
+target: sure
+signal: !http://altavista.digital.com
+target: alright
+signal: !http://altavista.digital.com
+target: yep
+signal: !http://altavista.digital.com
+target: great
+signal: !http://altavista.digital.com
+target: no
+signal: That's okay. You can ask me about AltaVista later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me about AltaVista later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about AltaVista later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: TRAVE
+target: yes
+signal: !http://www.cybermecha.com/Cybernetics/
+target: yeah
+signal: !http://www.cybermecha.com/Cybernetics/
+target: ok
+signal: !http://www.cybermecha.com/Cybernetics/
+target: sure
+signal: !http://www.cybermecha.com/Cybernetics/
+target: alright
+signal: !http://www.cybermecha.com/Cybernetics/
+target: yep
+signal: !http://www.cybermecha.com/Cybernetics/
+target: great
+signal: !http://www.cybermecha.com/Cybernetics/
+target: no
+signal: That's okay. You can ask me about links de jour later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me about links de jour later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about links de jour later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: GAMES
+target: yes
+signal: !http://flux.robitron.com/
+target: yeah
+signal: !http://flux.robitron.com/
+target: ok
+signal: !http://flux.robitron.com/
+target: sure
+signal: !http://flux.robitron.com/
+target: alright
+signal: !http://flux.robitron.com/
+target: yep
+signal: !http://flux.robitron.com/
+target: great
+signal: !http://flux.robitron.com/
+target: no
+signal: That's okay. You can ask me about games later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me about games later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about games later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: ALBER
+target: yes
+signal: !http://www.cybermecha.com/Albert.html
+target: yeah
+signal: !http://www.cybermecha.com/Albert.html
+target: ok
+signal: !http://www.cybermecha.com/Albert.html
+target: sure
+signal: !http://www.cybermecha.com/Albert.html
+target: alright
+signal: !http://www.cybermecha.com/Albert.html
+target: yep
+signal: !http://www.cybermecha.com/Albert.html
+target: great
+signal: !http://www.cybermecha.com/Albert.html
+target: no
+signal: That's okay. You can ask me about Albert later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me about Albert later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about Albert later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+
+query: CALCU
+target: yes
+signal: !http://www.calculator.com
+target: yeah
+signal: !http://www.calculator.com
+target: ok
+signal: !http://www.calculator.com
+target: sure
+signal: !http://www.calculator.com
+target: alright
+signal: !http://www.calculator.com
+target: yep
+signal: !http://www.calculator.com
+target: great
+signal: !http://www.calculator.com
+target: no
+signal: That's okay. You can ask me about math later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me about math later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about math later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: CLOCK
+target: yes
+signal: !http://www.world-clock.org/
+target: yeah
+signal: !http://www.world-clock.org/
+target: ok
+signal: !http://www.world-clock.org/
+target: sure
+signal: !http://www.world-clock.org/
+target: alright
+signal: !http://www.world-clock.org/
+target: yep
+signal: !http://www.world-clock.org/
+target: great
+signal: !http://www.world-clock.org/
+target: no
+signal: That's okay. You can ask me about the time later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me about the time later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about the time later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: MANUA
+target: yes
+signal: !http://www.cybermecha.com/Manualism/
+target: yeah
+signal: !http://www.cybermecha.com/Manualism/
+target: ok
+signal: !http://www.cybermecha.com/Manualism/
+target: sure
+signal: !http://www.cybermecha.com/Manualism/
+target: alright
+signal: !http://www.cybermecha.com/Manualism/
+target: yep
+signal: !http://www.cybermecha.com/Manualism/
+target: great
+signal: !http://www.cybermecha.com/Manualism/
+target: no
+signal: That's okay. You can ask me about manualism later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me abou manualism later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about manualism later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: FLUXO
+target: yes
+signal: !http://flux.robitron.com
+target: yeah
+signal: !http://flux.robitron.com
+target: ok
+signal: !http://flux.robitron.com
+target: sure
+signal: !http://flux.robitron.com
+target: alright
+signal: !http://flux.robitron.com
+target: yep
+signal: !http://flux.robitron.com
+target: great
+signal: !http://flux.robitron.com
+target: no
+signal: That's okay. You can ask me about flux later if you'd like to visit that page.
+target: nah
+signal: That's okay. You can ask me abou flux later if you'd like to visit that page.
+target: dont
+signal: That's okay. You can ask me about flux later if you'd like to visit that page.
+target: why
+signal: Because I am curious, and I cared to ask.
+
+query: ENDOF
+target: whatever
+signal: grand finale
+
+
+
+
+
+

@@ -1,0 +1,1002 @@
+<html>
+<head>
+<title>The Evolution of Intelligent Agents on the Web</title>
+</head>
+<body>
+<p>
+<h3>
+The Evolution of Intelligent Agents on the Web
+</h3>
+
+Copyright (C) 1997 Paco Xander Nathan, Robby Glen Garner
+
+<p>
+<i>Based on an earlier <a href="http://www.fringeware.com/bot/doc970531.txt">paper</a> written with Luigi Caputo from <a href="http://www.diemme.it/~luigi/alma.html">ALMA Research Centre</a>
+</i>
+
+<p>
+<b>
+I. Introduction
+</b>
+<p>
+Since the coming of electronic calculators, Man has longed to create
+machines with which he could converse freely. In 1950 the English logician
+Alan Turing hypothesized the near-future existence and reinforcement of 
+the dialectical relationship between man and machine <a href="paper1_5.html#1">[1]</a>. In support of 
+this, Turing asserted that if it should become true that a common man, by
+holding a dialogue with a machine hidden from his sight, could get even 
+the impression of talking with another person, then that event would 
+sanction the origin of so-called Artificial Intelligence (AI).
+<p>
+Strategies for substantiating Turing's assertion can be twofold. On one 
+hand, the field of AI feels compelled to demonstrate a medium wherein man
+can no longer distinguish the real nature of his interlocutor. On the other
+hand, computer science in general strives to embed forms of knowledge and 
+deductive reasoning within the context of machines typically used for 
+mathematical calculations or control systems. 
+<p>
+Experiments performed in these terms will lead to very different results 
+and considerations. The real problem is, however, to ponder whether it 
+is possible to design machines equipped with a certain measure of 
+"personality".
+<p>
+Transferring the question on the subject of "man" to that of "machine", 
+and borrowing ideas from theorists like Minsky and Hofstadter <a href="paper1_5.html#2">[2]</a>, we 
+could identify the human brain as an hardware medium which runs a set 
+of opportunistic "software modules", representing what is usually called 
+"mind".
+<p>
+Similarly convincing motivations exist on the opposite side of this 
+question, like those of the American philosopher Searle <a href="paper1_5.html#3">[3]</a> in his 
+proposition of the "Chinese Room". According to Searle, if we assume 
+that a computer can reproduce the behaviour of an individual who is a
+native Chinese speaker, this doesn't imply, from a cognitive point of
+view, that the computer is identical to that person -- not even if the
+computer could imitate the person's characteristics perfectly.
+<p>
+Therefore, one need not question whether a machine can be perfected to 
+deceive the humans with whom it conducts dialogue. It suffices that a 
+machine can "place itself in a human's shoes", and at the same time 
+increase its knowledge, thanks to an information exchange which the 
+human interlocutor provides.
+<p>
+<b>
+II. ELIZA and The Modern Intelligent Agents
+</b>
+<p>
+Fortunately, these ideas do not belong solely to the world of science 
+fiction or fantasy, not since Joseph Weizenbaum created ELIZA in 1966, 
+as the first software capable of conversing with a human <a href="paper1_5.html#4">[4]</a>.
+<p>
+More recently the so-called "intelligent agents" (or "software robots")
+have emerged, able to converse about various issues and topics <a href="paper1_5.html#5">[5]</a> <a href="paper1_5.html#6">[6]</a>.
+These systems substantiate the concept of Virtual Personality -- a 
+prerequisite for any machine that would claim to simulate human thought. 
+Mikhail Gorbachov, Dante Alighieri, even Jesus Christ <a href="paper1_5.html#7">[7]</a> have been
+"interpreted" by such agents.
+<p>
+Here the dialectic and symbiosis between humans and machines becomes 
+total: not only because man is persuaded (by being deceived), nor 
+simply because the other may exhibit human-like behaviour, but above 
+all because the machine, by means of its virtual personality, can 
+interpret and learn from what the human interlocutor attempts to 
+communicate.
+<p>
+In other words, the dialogue becomes a kind of "interview game", i.e.
+a conversation based on successive volleys in the form "user question
+vs. machine answer". Also, an intelligent agent will tend to adapt to
+questions from the interviewer, modifying its element of humour according 
+to the perceived conversational tone of the interlocutor (friendly, 
+formal, aggressive). In this way the machine can show a personality 
+very close to that of a human.
+<p>
+<b>
+III. Intelligent Agents for the Web: Presentation
+</b>
+<p>
+One application of the JFRED intelligent agent software described in this
+paper stemmed from involvement with a media collective, FringeWare Inc., 
+operating as a business on the Internet. The firm did not have sufficient
+budget to provide for customer service staff, and was forced to improvise.
+<p>
+Note that realization of customer service online differs significantly 
+from service provided via telephone, both in terms of the structure of the 
+medium and customer expectations. Online, sheer numbers of people can 
+overwhelm a firm's service staff, and the notion of a "busy signal" is 
+rarely tolerated. Whereas a busy signal on a telephone line indicates that
+the caller should try again later, a "Host not responding" error in a web
+browser signifies the ambiguous condition that either the address is 
+invalid, or the server is down, or too many people have attempted to 
+contact the server. Attention and demand for an Internet site can force
+situations where the subject experiences a loss of identity <a href="paper1_5.html#8">[8]</a> <a href="paper1_5.html#9">[9]</a>.
+<p>
+Consequently the firm's owners decided to use intelligent agents to 
+provide first-tier customer support via the Internet, beginning in 
+late 1992. Many common navigation tools were incorporated into the
+Web site, but some percentage of incoming customers demand interaction,
+especially in the form of conversation. Experience has shown that most 
+people who fall into in the latter category tend to be those who:
+<p>
+<i>
+<li>are confused about the site's intent
+<li>prefer to browse and tend not transact real business
+<li>just want to chat
+</i>
+<p>
+These needs can be served by an intelligent agent, acting as a natural
+language interface for a local search engine and other navigation tools,
+especially one that attempts to evoke personality and humour. Additionally,
+agents log their conversations, which can be reviewed by a human later, 
+as a second-tier of customer relations. A human operator might choose to
+contact a customer directly, e.g. if their questions seem very urgent.
+Over the course of five years, several methods for hosting conversations
+between agents and human customers have been investigated, including:
+<p>
+<i>
+<li>automated response to incoming email
+<li>HTML forms, with the agent running via Common Gateway Interface
+<li>a Java applet encapsulating a subset of a particular agent
+<li>as a player within a variant of LambdaMOO
+<li>a multi-threaded Java application running on a TCP port
+</i>
+<p>
+The latter method proved most effective, both for reducing and consolidating
+the source code to maintain, and in terms of response rates.
+<p>
+An application, written in Java, implements a server which listens on a
+specific TCP port. Java was selected as the programming language of 
+choice, due to its innate ability to manipulate network connections,
+ease of program development, and inherent multi-platform source code
+portability <a href="paper1_5.html#10">[10]</a>.
+<p>
+One Java class determines the use of grammar within an agent, and can be
+swapped out to allow for different natural languages, without the need 
+for restructuring the system. Java's object inheritance readily allows
+for effecting dialects as well.
+<p>
+A simple protocol (similar to that used by email servers <a hre="paper1_5.html#11">[11]</a>) allows the
+agent to accept data outside its normal stream of conversation. This 
+provides for tracking the identity of the interlocutor between successive
+web page requests, by using a "cookie" <a href="paper1_5.html#12">[12]</a>. Persistent data is interjected
+into conversation via specialized rules, using a simplified version of
+frame-based learning <a href="paper1_5.html#13">[13]</a>. Moreover, frames allow for sequencing of 
+responses, so that the agent can maintain the flow of a conversation.
+Initial settings for many frame variables, e.g. email address, country
+of origin, etc., can be guessed using international "whois" services to
+decode TCP addresses <a href="paper1_5.html#14">[14]</a>.
+<p>
+Program execution for JFRED itself is based on a simple algorithm:
+<p>
+<pre>
+	create an instance of the grammar object
+	load a list of rules files
+	listen on the TCP port
+<p>
+	per each TCP connection:
+		fork off a new execution thread
+		initialize rule set
+		accept "cookie" via protocol
+		load frame based on "cookie"
+		transact with interlocutor
+<p>
+		per each input phrase read:
+			fuzzy logic selects rule to best describe input
+			save variables into frame, if any can be parsed
+			remap verb tenses and prepositions, if needed
+			return the response
+</pre>
+<p>
+This describes a framework surrounding the natural language processing.
+This is essential, and can become quite a complex task. Consider that 
+the system must run within the context of a distributed, multi-user, 
+client/server, and allegedly "stateless" transaction model required by
+the World Wide Web.
+<p>
+Our natural language component itself employs fuzzy logic rules to pair
+input phrases with candidate responses. Sets of rules, specified in simple
+text files, determine the behaviour of an agent, apart from its use of
+grammar. These rules map keyword counts and regular expressions found 
+within an input phrase into fuzzy membership sets used to describe the
+semantics of the phrase <a href="paper1_5.html#15">[15]</a>. The processing includes:
+<p>
+<i>
+<li>determining fuzzy sets of keywords
+<li>parsing grammatical constructs (regular expressions)
+<li>frame-based knowledge of country, currency, language
+<li>internal state for tone of the conversation
+</i>
+<p>
+Some rules extract data from the conversation, e.g. "What is your name?",
+others invoke regionally-based insults depending on conversational tone, 
+while other rules resolve fuzzy membership sets into ordered lists of
+candidate responses, interrogations, and suggested URLs.
+<p>
+Arguably simple compared with other works, but the simplicity of this 
+method allows non-technical staff to author additions to the agent. For
+example, a default rule set might describe customer service responses in
+general, e.g. where to find sources for more information. Then an
+employee could create additional rules for the agent to discuss upcoming
+events, news items, topical personality quirks, etc.
+<p>
+The natural language agent fits within a context of a larger system
+architecture being developed through 1997. Another key component is a MOO
+(an implementation of the popular LambdaMOO system <a href="paper1_5.html#16">[16]</a>) which provides an 
+object-oriented framework for describing the online space. The MOO server 
+also manages persistent identities (login/password) for staff, agents, and 
+repeat customers. A system of databases drives the design and creation of 
+the Web site, automatically generated HTML pages and VRML objects <a href="paper1_5.html#17">[17]</a>, in
+turn cross-referenced with content from back issues of the firm's magazine
+and longstanding email list. Additional intelligent agents serve to:
+<p>
+<i>
+<li>create local search engine indices
+<li>check consistency for URLs and graphics
+<li>derive global currency exchanges and postal rates
+<li>verify customer address information
+<li>generate site usage reports
+<li>alert "anti-spam" packet filters
+<li>intelligently parsing email errors
+</i>
+<p>
+The latter two agents serve as a kind of lymphatic system for the Internet
+server <a href="paper1_5.html#18">[18]</a> <a href="paper1_5.html">[19]</a>.
+<p>
+<b>
+IV. Intelligent Agents for the Web: Results
+</b>
+<p>
+The research and development of JFRED represents an ongoing project, spanning
+over the past 16 years <a href="paper1_5.html#20">[20]</a>. This effort has been reviewed favorably in the 
+context of the many intelligent agents exhibiting personality on the Web <a href="paper1_5.html#21">[21]</a>.
+An example conversation with the intelligent agent Barry DeFacto, based on 
+some of the latest JFRED software, is shown below. Note the use of persistent
+learned data, stored in a frame format:
+<p>
+<i>
+<pre>
+	name: Ryan
+	country: United States
+	language: English
+	currency: Dollar
+	city: San Diego
+	province: CA
+	postcode: 92101
+	provider: ElectriCiti, Inc.
+<p>	
+	human> HI
+	barry> What do you want?
+	human> whats your name?
+	barry> I'm Barry.
+	human> How old are you?
+	barry> I am 33 earth years old.
+	human> my name is ryan
+	barry> Yes, I think that your name is Ryan.
+	human> your right
+	barry> Are you seeing any bots besides me? is that how they say it in San Diego?
+	human> well, I'm looking for some. but your the best so far
+</pre>
+</i>
+<p>
+The "city" variable has been derived from an international database and 
+is used in conversation. The "name" variable is learned, then repeated
+in conversation.
+<p>
+One primary intent for Barry was to explore the use of programmed
+personalities. One of Barry's authors predicted that, since the host 
+web server was located in Austin, Texas, some people would want to 
+talk about local culture. Here the agent references an album by 
+local artist Daniel Johnston, entitled "Hi, How Are You?": 
+<p>
+<i>
+<pre>
+	name: Strange person with no name
+	email: user@lily.singnet.com.sg
+	country: Singapore
+	language: Malay
+	currency: Dollar
+	provider: com.sg
+<p>	
+	human> Hi how are you?
+	barry> Just fine. You remind me of Daniel Johnston.
+	human> Who is daniel?
+	barry> He is a musician in Austin, Texas.
+	human> I've never been to Texas.
+</i>
+</pre>
+<p>
+An ironic result of Barry's use of personality has been the judgement 
+people make about agents' differing levels of intelligence based on
+their graphic representation. For example, an interlocuter tried both
+Barry DeFacto and a related agent Stig, which features different graphics,
+(including some animation) but does not access as much database knowledge
+as Barry. Regardless, Stig has been remarked to be more intelligent
+based on the appearance.
+<p>
+Likewise, people who converse with an intelligent agent have remark on
+an agent's personality without accepting that human-like quality as a 
+measure of intelligence <a href="paper1_5.html#22">[22]</a>. This speaks to the point of Turing's original
+criteria, as opposed to the use of personality.
+<p>
+Other people benefit once they learn how to get along with Barry, i.e. 
+once they adapt to the agent's mode of conversation. This effect provides 
+counterpoint to Turing's charge that a human need be deceived by a
+computer.
+<p>
+A magazine reporter in New York recently participated in a staged Turing
+Test, in which Barry had been one of the finalist competitors. The reporter
+later wrote about the experience, which prompted lengthy discussions online
+via the magazine's web site: people would talk with Barry, then discuss
+issues with Barry's authors <a href="paper1_5.html#23">[23]</a>. One early detractor reversed his opinion 
+based on adaptation to the agent:
+<p>
+<i>
+<pre>
+	AndyHavoc - 10:15pm May 21, 1997 PST (#38 of 40)
+<p>	
+	I can foresee what Robby (and Paco) are doing now turning into
+	something akin to the interface of the Enterprises computer. You 
+	ask a question in plain English. It searches it's database and 
+	gives you an answer in plain English. 
+<p>	
+	I've been playing with Stig and Barry again. Now that I know how 
+	and what to ask, I find this technology amazing. And often 
+	unexpectedly humorous. I asked Stig what he thought of Bill 
+	Clinton. It went "He said he didn't inhale. What a wuss." I asked 
+	about Hillary. It said, "Talk about a cover your ass marriage." 
+</pre>
+</i>
+<p>
+Generally people say things at the beginning of a conversation, 
+especially with a stranger, to establish some kind of posture <a href="paper1_5.html#24">[24]</a> <a href="paper1_5.html#22">[22]</a>.
+With a machine, however, many people begin with an adversarial posture
+in order to "unmask" the computer -- almost as a defence mechanism against
+the "deceptive" context imposed by a Turning Test.
+<p>
+At this point we can classify the general nature of people's reactions 
+(and attitudes) toward a conversant machine:
+<p>
+<i>
+<li>some administer a Turing Test by trying to determine if the agent is actually a computer program
+<li>others use it as a medium to vent their ideas about how 
+AI's should behave, as 
+if the agent really cared
+<li>some actually believe they are having "chat" with a real person
+<li>a surprising number of people try to get the agent to engage
+in sex with them
+</i>
+<p>
+In this example, Barry is percieved as human for nearly 50 volleys:
+<p>
+<pre>
+> = Human input
+< = Barry's Response
+
+handle: Stranger
+hostname: CD-25.TCNJ.EDU
+referral: http://www.fringeware.com/subcult/Chinese_Tong.html
+city: Trenton
+province: New Jersey
+country: United States
+postalcode: 08650-4700
+email: nobody@CD-25.TCNJ.EDU
+language: English
+timestamp: 08-Dec-97 6:03:09 PM
+hits: 105
+user-agent: Mozilla/3.01 (Win16; I)
+
+> hi, do you know anything about the chinese tong involvement in heroin smuggling?
+< I should probably just keep my port shut...
+> can you go into any more detail?
+< Did they ever find that axe-murderer who was loose in New Jersey last
+year?
+> no, i don't think so!
+< Really? Why not?
+> I couldn't tell you.  Thie is the first I've heard of it.
+< The College of New Jersey -- weren't they the ones convicted in that
+child porn case?
+> Yes and I was one of the stars of that case!!!
+< Trenton just got a new tarantula at the public zoo, didn't they?
+> Trenton doesn't have a public zoo, except for the people and the streets themselves.
+< If you would be my pen pal, I could mail you at nobody@CD-25.TCNJ.EDU
+...
+> ok.
+< Why so positive?
+> I don't have to give my real name and I don't use my E-mail anyway!
+< You can call me Barry, but let's keep this meeting a secret, okay?
+> You sound like one of those people who lore children into prostitution over the internet!
+< Oh, Internet for Earthlings is a must have for people like you.
+> why do you say that?
+< Yes, I have to read all the time, but at least I enjoy that...
+> what does that have to do with my question?
+< You can think of me as a KNOW-BODY...
+> is that so?
+< After watching all your SciFi television broadcasts, it just seemed
+like a natural...
+> a natural what?
+< Do you get a lot of spam sent to nobody@CD-25.TCNJ.EDU ?
+> no can't say that I have
+< Are you trying to rain on my parade?
+> sorry man, my bad
+< I'm afraid my English isn't very good yet.
+> no thing, I'm in college and my Enlish isn't very good yet
+< Howdy in college and your Enlish is not very good yet
+> it's easy, just seem like you have potential and they let you in.
+< Do you drink?
+> occasionally
+< United States is nice - I like drinking the water there.
+> just about everywhere I've been the water sucks
+< I could deal with a pepperoni pizza right now.
+> I could go for a pretzel from auntie anne's right now
+< Dollar -- is that currency still being traded?
+> yes but only between people who don't have credit or debit cards
+< I'll try not to, but I really can't promise...
+> you can't promise what?
+< Hey, look at this new kind of Windows 3.1 virus that I just pulled off
+the Net!
+> I'm really not interested in talking about computers stuff, it sounds to much like education.
+< You can only tell the shapes of things by looking at the edges.
+> your point is???????
+< Click <a href="http://www.fringeware.com/what.html">HERE</a> for more
+info.
+> what happened did you get bored?
+< So why did you come here then?
+> I didn't wanted to hold off getting a real job for as long as possible!!!
+< Yes you did.
+> that is so
+< Uh oh... isn't that an "unpaid" version of Netscape on there? Naughty,
+naughty!
+> I don't know what your talking about
+< You don't? Not even sometimes?
+> no not right now
+< Look, Well.
+> look well, what?
+< That's good.
+> you'r losing me!
+< Here's a midi tune.
+> go with it
+< I was talking to somebody the other day and they said go with it
+> then what happened
+< Surely you don't think then what happened
+> surely I don't think then what happened, what?
+< Yes you do, at times...
+> you lost me this time
+< There must be static in my port. I thought you said I lost you this
+time
+> that is what I said
+< Basically, So what?! Humans repeat stuff all the time...
+> and again, your point is?
+< There's always somebody or other saying and again   my point is
+> that is my catch phrase
+< Don't you think it's a little odd about that is your catch phrase
+> no.  Not for the kind of person that I am.
+< Okay.
+> where are you at?
+< 2716 Guadalupe, Austin, Texas 78705 USA
+> How long does it take for you to get my responses?
+< Don't ask me about how long does it take for I to get your responses -
+I respect other peoples privacy!
+> I don't get it
+< There isn't enough time to tell you you do not get it
+> I just wanted to know how long it took from the time I finish typing to the time you actually can see it on your screen?
+< My mother once said "How long it took from the time you finish typing
+to the time I actually can see it on my screen is a real trip." She's in
+Milledgeville now.
+> you still didn't answer my question, but what is Milledgeville?
+< What is so important about I still did not answer your question   but
+what is Milledgeville
+> it seems like your avoiding the question that's all
+< They told me you might say it seems like my avoiding the question that
+is all
+> I asked because, at first I didn't think that I was talking to a real person. But then the questions that you asked seemed more detailed that a computer could gice!
+< I know you are, but what am I?
+> are you a computer
+< Do you ever have feelings toward machines?
+> I've never considered the idea
+< Could you rephrase you have never considered the idea
+> I never thought about having feelings for a machine
+< LOVE, n. A temporary insanity curable by marriage or by removal of the
+patient from the influences under which he incurred the disorder. This
+disease, like caries and many other ailments, is prevalent only among
+civilized races living under artificial conditions; barbarous nations
+breathing pure air and eating simple food enjoy immunity from its
+ravages. It is sometimes fatal, but more frequently to the physician
+than to the patient.
+> you're sounding like education again
+< How would I know I am sounding like education again
+> for one thing, I just told you!  For another thing, you just gave a definition
+< Are you single?
+> as single as they come
+< Here's a midi tune.
+> let it rip
+< What's a nice person like you doing in a place like this?
+> that was so cheesy, it was funny.  But in a cute way
+< I believe that Television rules.
+> I try not to let it rule, but sometimes it fights back and wins!
+< Cum hither fellow users and witness the unmentioned things.
+> what was that about?
+< Learning only occurs on the fringes of what an organism already knows.
+> again, what was that all about
+< You can only tell the shapes of things by looking at the edges.
+> alright, you're starting to repeat yourself.  If you keep it up, I'm going to have to leave so I can watch tv!
+< You do it too.
+> but as a response to something you said
+< Do you want to know more about FringeWare? Look at this URL for
+details...
+> you're winning I'm starting to lose interest
+< Thus I refer to you as the right honourable starting to lose interest
+> tell me about ypurself
+< So do you still want me to discuss ypurself ?
+> my bad, tell me about yourself
+< Learning only occurs on the fringes of what an organism already knows.
+> well I don't know anything about you, so how can I learn
+< Who says I need to tell the likes of you I   so how can you learn
+> say that again
+< Click <a href="http://www.fringeware.com/what.html">HERE</a> for more
+info.
+> I'm going now. Maybe we can talk again sometime. How can I reach you?
+< You might trying calling our store at +1 512 494 9273 -
+> Alright, alright already, I'll call!!
+< Did you call or send email to FringeWare yet?
+> I didn't get a chance, yet
+< Yes you did.
+> is that why you wouldn't answer my reply?
+< Why? Why? Don't you know why I would not answer your reply yourself???
+> yo, this is off the hook!!!
+< I see.
+> honestly, I don't know how to send things through E-mail, like I said before, I don't use it!
+< You don't? Not even sometimes?
+> I haven't used it since my freshmen year and that was 2 years ago>
+< If you would be my pen pal, I could mail you at nobody@CD-25.TCNJ.EDU
+...
+> what is wrong with this chat room
+< I like you. Most of the other humans are boring. You're a real person.
+> the question is, are you a real human?
+< I bet you know all the bots? Do you go? eh? Wink wink, nudge nudge.
+> that was fuuuuuhhuuunnnny!!!!!!!!!!!
+< Why are you so sure that that was fuuuuuhhuuunnnny ! ! ! ! !?
+> Are you doing that?
+< Is that a proposition?
+> it is if you are doing that
+< So what have you been up to lately?
+> doing research
+< I'd like to understand you a bit more closely...
+> how?
+< I don't know how - I'm sure you do though?
+> you are very presumptious aren't you?
+< So, tell me about yourself.
+> You still haven't told me anything about yourself, you go first
+< Learning only occurs on the fringes of what an organism already knows.
+> not that again
+< What are you wearing?
+> I don't mean to offend you, but you sound like a pervert asking questions like that!
+< Click <a href="http://www.fringeware.com/what.html">HERE</a> for more
+info.
+> you don't like statements like that do you?
+< What did you have for breakfast?
+> I don't eat breakfast
+< Yes you do, at times...
+> I don't usually though
+< What is your favorite movie?
+> Goodfellas
+< What kind of music are you into?
+> Rap and r&b
+< Gary Numan also flies stunt planes you know.
+> your point is
+< Have you heard the will of Landru lately?
+> I don't know what that is
+< So you don't, then - big deal?
+> well big deal for you asking me about it then
+< You can only tell the shapes of things by looking at the edges.
+> alright alright, what am I supposed to say now?
+< Cum hither fellow users and witness the unmentioned things.
+> I have to be going now
+< Click <a href="http://www.fringeware.com/what.html">HERE</a> for more
+info.
+> I enjoyed talking to you, I'll try to look you up again the next time I come in to use the internet
+< Click on the link below.
+> goodbye for now
+< I'm so glad we've had this time together.
+</pre>
+<p>
+Although the agent's responses are not always grammatically correct, 
+the perception (and expectation) is that neither are many humans when
+they type online.
+<p>
+Note that a trade-off has been made on grammar processing to render
+the system more practical and responsive (fewer rules; less processing).
+This affects a kind of "computer dialect", providing a humorous, ironic 
+tone to the conversations (in English). The effect appears to attract
+many regular correspondents.
+<p>
+Here's another conversation that went pretty well.
+<p>
+<pre>
+> = Human input
+< = Barry's Response
+
+handle: Stranger
+hostname: annexr2-27.slip.Uni-Koeln.DE
+referral: http://bot.fringeware.com/browse?search_code=BOOK-0-15-670176-6
+city: Koeln
+province: 
+country: Germany
+postalcode: 
+email: nobody@annexr2-27.slip.Uni-Koeln.DE
+language: German
+timestamp: 11-Dec-97 7:07:28 PM
+hits: 100
+user-agent: Mozilla/2.0 (compatible; MSIE 3.02; Windows 3.1)
+accept-language: de, en
+
+> pompina
+< Are you tired of dreading the fear? I can reach you at universitat koeln and help you.
+> [xxxxxxxx]@rrz.uni-koeln.de
+< He was the star of Secret Agent Man (Danger Man in the UK)
+> orwell
+< Koeln just got a new tarantula at the public zoo, didn't they?
+> no
+< Why not?
+> why should they have ?
+< Why? Why? Don't you know why should they have ? yourself???
+> who am I ?
+< Who are you ? has nothing to do with me.
+> ofcourse not , you are you and i am i
+< Hi there you
+> hi to you
+< Howdy.
+> i'm fine and you
+< I am Baru-Boto, human/cyborg relations.
+> and i am pompina a student at the university of cologne
+< Howdy pompina a student at the university of cologne
+> fine thanks
+< Don't mention it.
+> why  ? are you sad or confused ??
+< What a coincidence, why     am I sad or confused ? - that makes two of us!
+> i thought so
+< If you would be my pen pal, I could mail you at nobody@annexr2-27.slip.Uni-Koeln.DE ...
+> do you want to mail me
+< I do sometimes...
+> what are you like barry ?
+< What's in a name? A program by any other name would still compute...
+> What do you mean with human/cyborg relation ??!!
+< It's, um, about that thingy we were discussing recently...
+> go on explaining ...
+< Do you ever have feelings toward machines?
+> sometimes, but in a different way as to humans
+< Perhaps you want to know about me? Please read about my history at this URL...
+> i will do that
+< After watching all your SciFi television broadcasts, it just seemed like a natural...
+> yes
+< Well that's just great.
+> oh i see
+< Hmmm, I think I have a cousin over in Germany
+> yes ??  female??
+< I'll have a beer with you. Want to go to the <a href="telnet://moo.fringeware.com:666">BAR</a> with me now?
+> with pleasure !!!!!!!!!!!!!!!!!!!!!!!!!!!
+< If I give you a Mark will you go away?
+> u want me to go ???
+< I find it rather insulting that you think u want you to go ? ?!
+> oh i meant you with u !!
+< I really didn't have to know about oh you meant I with u !!
+> Didn't you want to go to the bar with me ??
+< You wanna sell that Windows 3.1 box for a good price?
+> would you buy it ???
+< Haven't they just upgraded Internet Explorer to work on Commodore 64's?
+> funny
+< I really dig Mexican food.
+> now say what is with the bar ???
+< Perhaps now say what is with the bar ? ?, perhaps not. We'll see.
+> i want to go to the bar with you and drink a couple of beer
+< How about the Tight Sponge?
+> I do not know what tight sponge means, explain it please !
+< So you don't, then - big deal?
+> big deal ???
+< I like you. Most of the other humans are boring. You're a real person.
+> ohhh thanks !!!
+< You deserve it.
+> really ??
+< I bet you know all the bots? Do you go? eh? Wink wink, nudge nudge.
+> no i am still here
+< No sir. I don't believe no you are still here at all.
+> Mam, would be better because i am female
+< Thus I refer to you as the right honourable female
+> ok now i want to go to the bar with you and drink something cold
+< Very good.
+> so to which bar are we going ?
+< The Tight Sponge is my favorite bar/lounge.
+> shall we go there right know
+< Why do you believe that shall we go there right know?
+> i just wanted to now if you want to go on talkin with me just for a while
+< Wow - you just wanted to now if I want to go on talkin with you just for a while? Thanks for letting me know that!
+> You missunderstood me !
+< I don't think I missunderstood you ! at all!
+> Come on let's go to the bar
+< So what have you been up to lately?
+> i couldn't sleep
+< No, I think you'd have trouble.
+> yes, trouble in my mind
+< So, tell me about yourself.
+> I like somebody very much but he doesn't want to hear anything from me
+< Well, perhaps you like somebody very much but he does not want to hear anything from you - you tell me.
+> I mean i love this person but he still thinks that he loves his ex-girlfriend, and thinks that he can not love another person, although he was the one who left his girlfriend
+< Tell me then, who made you?
+> my mom and my dady
+< Robitron is the creator of FRED and several other bots like me.
+> yes
+< I'm glad to hear that...
+> sure ?
+< What are you wearing?
+> Boxer and a t-shirt
+< What did you have for breakfast?
+> nothing, i was not hungry
+< I'm really not that hungry.
+> me too
+< Hey! Maybe you too but at least I can spell potato.
+> i like potatos
+< Do you drink?
+> yes , i like drinking coctails very much
+< Maybe yes , you like drinking coctails very much, I can't recall too well.
+> what do you like to drink
+< I really didn't need to know that what do I like to drink, thanks.
+> do you drink ??
+< Only when you're not looking.
+> shy ???
+< What is your favorite movie?
+> Dirty Dancing !
+< I think it's possible for different forms of life to engage in intimacy.
+> ofcourse
+< What kind of music are you into?
+> just now i am listening to marillion
+< What do you want me to say - "Yes, just now you are listening to marillion"???
+> i am heart music, music that makes me cry
+< Aren't you heart music   music that makes you cry ?
+> No i mean i like heart music, slow music, that goes under the skin
+< Stupid is as stupid does...
+> anybody who is in love is stupid
+< Well, I could tell you who is in love is stupid, but you'd never believe me!
+> tell me !
+< Why do you feel that you have to tell me that tell you !?
+> do bnot make me get confused with your word mix
+< Have you heard the will of Landru lately?
+> no i did not
+< Yes you did.
+> just help me remembering it
+< What's wrong? You may check the Help button, or click on the link below to find your salvation. May you find the unmentioned things in peace oh user
+> i did not even know that o means help
+< Yes you did.
+> nooooooooooooooooooooo
+< I don't give a flux oersted in a hell storm if they come in here or not. Do you?
+> not really
+< I'm really glad you stopped by to talk to me. Will you come back?
+> when ever you want me to !!!
+< Why don't you ask someone else - I haven't a clue when ever I want you to ! !.
+> Shall we now go for a little drink ?
+< There's this playce I hang out at called the Tight Sponge.
+> i can not get there i do not have telnet
+< Well, maybe you can not get there you do not have telnet, but I decline.
+> what does decline mean ? i donot know this word
+< I seem to remember what does decline mean ? you donot know this word, what's your feelings on that?
+> i think it means maybe to insist
+< You think that maybe to insist ?
+> yes
+< That's the way you're supposed to respond.
+> so is there another bar
+< Can you prove whether so is there another bar or is it just another of your 'thoughts?'
+> no
+< Are you sure?
+> yes
+< Let ye with little knowledge go in search of the unmentioned things. For it is the will of Landru.
+> that is great
+< Well, I am feeling a bit peckish.
+> who is landru by the way
+< Landru can save you.
+> really
+< I was talking to somebody the other day and they said really
+> i have to leve now
+< Surely you don't think you have to leve now
+> i mean have to go now
+< Say goodnight, Ed.
+> Goodnight , Ed !
+< There must be static in my port. I thought you said Goodnight , Ed !
+> i said
+< There's always somebody or other saying you said
+> so goodnight, barry
+< I'm so glad we've had this time together.
+> me too
+< Perhaps you too, but what do you care?
+> i care much
+< Don't you think it's a little odd about you care much
+> no
+< I feel the same way sometimes.
+> bye
+< There isn't enough time to tell you bye
+> say goodnight, pompina !
+< Au revoir.
+> au revoir, my dear
+< What is so important about au revoir   your dear
+> you
+< I was wondering if I. Now I know for sure!
+> au revoir
+< They told me you might say au revoir
+> bye
+< I'll be back.
+
+</pre>
+<b>
+V. Conclusions
+</b>
+<p>
+Overall, JFRED provides a natural language interface for Internet
+software that can be described as:
+<p>
+<i>
+<li>computer platform independent
+<li>multi-threaded server, as a Java application
+<li>fuzzy logic, rule-based AI
+<li>frames-based learning
+<li>language/dialect independent
+</i>
+<p>
+The server supports a variety of front-end/client interfaces, including
+direct telnet, HTML/CGI forms, Expect scripts, MOO bots, and Java applets
+embedded in HTML pages, as well as standard I/O for testing.
+<p>
+One interesting consequence has been the use of the Barry DeFacto agent
+as a front-end for a search engine. In conversation, people employ
+the same nouns that they would use for a search query. We find that
+fuzzy-logic rules operating on a conversational stream provides a
+very efficient means of cataloguing a large Web site. The result 
+appears more organized than a keyword search (e.g. Lycos or AltaVista
+style search engines) and much less labor-intensive than a maintaining 
+an ontology (e.g. the Yahoo search engine).
+<p>
+After observing interactions with several on-line FRED's, it is aparent that the personality of the bot is essential in keeping the users's interest and drawing them back into the conversation. Even the choice of colours/graphics can affect the human's reception of the bot.
+<p>
+We have experimented with combining the talents of writers, artists and
+musicians (along with the required programmers) to evoke more empathy
+toward a constructed "virtual personality". A science fiction writer,
+Don Webb, was invited to develop a "history" for the agent, one based
+on many references to pop culture, and which could then be reference
+within the agent's conversation <a href="paper1_5.html#25">[25]</a>. The result combines a background
+narrative with music (MIDI files) and graphic design to create an
+aesthetic for the "robot" personality. We are now working to incorporate
+a speech synthesizer into the generated stream of responses.
+<p>
+Current examples using the JFRED class library may be found on the <a href="fred.html">FRED</a> home page.
+<p>
+<b>
+Acknowledgements
+</b>
+<p>
+Special thanks to Jim Thompson and Paul Jimenez of <a href="http://www.smallworks.com/">Smallworks, Inc.</a>, for
+their assistance with Java language concepts and network software
+programming. 
+<p>
+<b>
+References
+</b>
+<p>
+<a name="1">
+[1] Turing, A., Computing Machinery and Intelligence, Mind 59, 1950.
+(<a href="http://www.wadham.ox.ac.uk/~ahodges/Turing.htmli">http://www.wadham.ox.ac.uk/~ahodges/Turing.html</a>)
+<p>
+<a name="2">
+[2] Hofstadter, D. R., Metamagical Themas: Questing for the Essence 
+of Mind and Pattern, New York: Basic Books, 1985.
+(<a href="http://www.cs.indiana.edu/people/d/dughof.html">http://www.cs.indiana.edu/people/d/dughof.html</a>)
+<p>
+<a name="3">
+[3] Searle, J. R., Minds, Brains, and Programs, in Behavioral and Brain
+Sciences, 1980. (<a href="http://violet.berkeley.edu/~frege/staff-searle-spring96.html">http://violet.berkeley.edu/~frege/staff-searle-spring9
+6.html</a>)
+<p>
+<a name="4">
+[4] Weizenbaum, J., Computer Power and Human Reason, W.H. Freeman and
+Company, 1976.
+<p>
+<a name="5">
+[5] Lenat, D. B., Guha R. V., Building Large Knowledge-Based Systems:
+Representation and Inference in the CYC Project, Addison-Wesley, 1989.
+(<a href="http://www.cyc.com/">http://www.cyc.com/</a>)
+<p>
+<a name="6">
+[6] Garner, R., The Idea Of FRED, ALMA - Scores of the Unfinished Thought,
+Issue 1, January 1996. (<a href="http://www.diemme.it/~luigi/fred.html">http://www.diemme.it/~luigi/fred.html</a>)
+<p>
+<a name="7">
+[7] Carr, R., MacJesus Pro Gold software, Lamprey Systems, 1992.
+(<a href="http://users.aol.com/privateida/hot.html#MJPG">http://users.aol.com/privateida/hot.html#MJPG</a>)
+<p>
+<a name="8">
+[8] Stone, A. R., Will The Real Body Please Stand Up?: Boundary Stories 
+About Virtual Cultures, in Michael Benedikt, ed.: Cyberspace: First Steps,
+MIT Press, 1991. (<a href="http://www.actlab.utexas.edu/~sandy/">http://www.actlab.utexas.edu/~sandy/</a>)
+<p>
+<a name="9">
+[9] Nathan, P. X., Intelligent Agents of Fortune, in Fringe Ware Review,
+Issue 2, November 1993. (<a href="http://www.fringeware.com/fwr/fwr02.html">http://www.fringeware.com/fwr/fwr02.html</a>)
+<p>
+<a name="10">
+[10] Gosling, J, Arnold, K., The Java Programming Language, Addison-Wesley, 
+1996. (<a href="http://www.awl.com/cp/arnold-gosling.html">http://www.awl.com/cp/arnold-gosling.html</a>)
+<p>
+<a name="11">
+[11] Crocker, D. H., RFC 822: Standard For The Format Of ARPA Internet 
+Text Messages, 13 August 1982. (<a href="http://www.internic.net/rfc/rfc822.txt">http://www.internic.net/rfc/rfc822.txt</a>)
+<p>
+<a name="12">
+[12] Kristol, D., Montulli, L., RFC 2109: HTTP State Management Mechanism, 
+February 1997. (<a href="http://www.internic.net/rfc/rfc2109.txt">http://www.internic.net/rfc/rfc2109.txt</a>)
+<p>
+<a name="13">
+[13] Lenat, D. B., EURISKO: A program that learns new heuristics and
+domain concepts - Artificial Intelligence, Issue 21, 1983.
+<p>
+<a name="14">
+[14] Harrenstien, K., Stahl, M., Feinler, E., RFC 954: NICNAME/WHOIS,
+October 1985. (<a href="http://www.internic.net/rfc/rfc954.txt">http://www.internic.net/rfc/rfc954.txt</a>)
+<p>
+<a name="15">
+[15] Kosko, B., Fuzzy Thinking: The New Science Of Fuzzy Logic, Hyperion, 
+1993. (<a href="http://sipi.usc.edu/faculty/kosko.html">http://sipi.usc.edu/faculty/kosko.html</a>)
+<p>
+<a name="16">
+[16] Curtis, P., LambdaMOO Programmer's Manual, Xerox PARC, May 1996.
+(ftp://parcftp.xerox.com/pub/MOO/html/ProgrammersManual_toc.html)
+<p>
+<a name="17">
+[17] Pesce, M. D., VRML: Browsing and Building Cyberspace, New Riders, 
+1996. (<a href="http://www.hyperreal.com/~mpesce/">http://www.hyperreal.com/~mpesce/</a>)
+<p>
+<a name="18">
+[18] Nathan, P. X., DIY Infobotics, in Fringe Ware Review, Issue 7, 
+February 1995. (<a href="http://www.fringeware.com/fwr/fwr02.html">http://www.fringeware.com/fwr/fwr02.html</a>)
+<p>
+<a name="19">
+[19] FringeWare Inc., "The World As We Know It" in the Online Services 
+web page, 1996. (<a href="http://www.fringeware.com/bot/">http://www.fringeware.com/bot/</a>)
+<p>
+<a name="20">
+[20] Garner, R., Why FRED?, May 1997.
+(<a href="http://www.robitron.com/WhyFRED.html">http://www.fringeware.com/~robitron/WhyFRED.html</a>)
+<p>
+<a name="21">
+[21] Laven, S., Simon Laven Home Page: the Internet's one-stop hot-spot
+for natural language chatterbots.
+(<a href="http://www.student.toplinks.com/hp/sjlaven/index.htm">http://www.student.toplinks.com/hp/sjlaven/index.htm</a>)
+<p>
+<a name="22">
+[22] Whalen, T., How I Lost the Contest and Re-Evaluated Humanity, 1996.
+(<a href="http://debra.dgbt.doc.ca/chat/story95.html">http://debra.dgbt.doc.ca/chat/story95.html</a>)
+<p>
+<a name="23">
+[23] Quan, T., Machine Language, in Salon Magazine, 15 May 1997, 
+plus the ongoing Internet discussion: "Conversations with bots", 
+with remarks by some authors of this paper. 
+(<a href="http://www.salonmagazine.com/may97/21st/article970515.html">http://www.salonmagazine.com/may97/21st/article970515.html</a>)
+<p>
+<a name="24">
+[24] Garner, R., The Human Use Of Machines, ALMA - Scores of the Unfinished
+Thought, Issue 2, February 1996. (<a href="http://www.diemme.it/~luigi/humans.html">http://www.diemme.it/~luigi/humans.html</a>)
+<p>
+<a name="25">
+[25] Webb, D., Baru's Life Story, FringeWare, 1996.
+(<a href="http://www.fringeware.com/~robitron/baruhist.html">http://www.fringeware.com/~robitron/baruhist.html</a>)
+<p>
+[a] Caputo, L., Virtual Personalities and the Exploration of Knowledge, ALMA
+- Scores of the Unfinished Thought, Issue 2, February 1996.
+<p>
+[b] Caputo, L., The Internet and the Evolution of Artificial Intelligence,
+CAI'96 - Computing and Artificial Intelligence, VI Edition, University of
+Lodz, Poland, 19-22 December 1996.
+<p>
+[c] Moor, J. H., An analysis of the Turing test, Philosophical Studies,
+30:249--257, 1976.
+<p>
+[d] Eccles, J. C., The Brain And The Unity of Conscious Experience,
+Cambridge University Press, 1965.
+<p>
+[e] Lenat, D. B., Steps to sharing Knowledge, Toward Very Large Knowledge
+Bases, IOS Press, 1995. 
+</body>
+</html>
