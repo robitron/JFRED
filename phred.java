@@ -44,7 +44,7 @@ public class phred extends Applet implements Runnable, ClipboardOwner {
     // setup rules
 
     grammar = new Grammar();
-    fred = new Fred(grammar, true,"/Users/robby/JFRED/out/production/JFRED/jfred.dat");
+    fred = new Fred(grammar, true,"jfred.dat");
 
     // setup cart, loading an existing cart, if given
 
